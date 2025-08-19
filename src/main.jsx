@@ -6,10 +6,8 @@ import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
-      
-      <App />
-
+    <BrowserRouter basename='/Netflix-Clone-ReactJS'>
+      <App/>
     </BrowserRouter>
   </StrictMode>,
 )
