@@ -1850,7 +1850,7 @@ background: linear-gradient(
       font-size: 1.2rem;
     }
   }
-`;function Bx(){const i=Qc(),o=()=>{i("/")};return h.jsx(Ux,{children:h.jsxs("div",{className:"content-section",children:[h.jsxs("div",{className:"p1",children:[h.jsx("img",{src:Xu,alt:"Logo Netflix"}),h.jsx("p",{children:"Home"}),h.jsx("p",{children:"TV Shows"}),h.jsx("p",{children:"Movies"}),h.jsx("p",{children:"New & Popular"}),h.jsx("p",{children:"My List"})]}),h.jsxs("div",{className:"p2",children:[h.jsx("button",{onClick:o,children:"Sign Out"}),h.jsx("div",{className:"btn-mobile",children:h.jsx("p",{children:"☰"})})]})]})})}const Hx=yt.div`
+`;function Bx(){const i=Qc(),o=()=>{i("/")};return h.jsx(Ux,{children:h.jsxs("div",{className:"content-section",children:[h.jsxs("div",{className:"p1",children:[h.jsx("img",{src:Xu,alt:"Logo Netflix"}),h.jsx("p",{children:"Início"}),h.jsx("p",{children:"Séries"}),h.jsx("p",{children:"Filmes"}),h.jsx("p",{children:"Novos & Populares"}),h.jsx("p",{children:"Minha Lista"})]}),h.jsxs("div",{className:"p2",children:[h.jsx("button",{onClick:o,children:"Sair"}),h.jsx("div",{className:"btn-mobile",children:h.jsx("p",{children:"☰"})})]})]})})}const Hx=yt.div`
   position: relative;
   width: 100%;
   height: 48vh;
