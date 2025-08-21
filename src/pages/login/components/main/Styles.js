@@ -42,6 +42,7 @@ export const StylesLogin = styled.div`
     border: 1px solid grey;
     border-radius: 5px;
     margin-bottom: 15px;
+    color:white;
   }
 
   ::placeholder {
