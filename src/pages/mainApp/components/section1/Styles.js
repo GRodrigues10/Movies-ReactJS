@@ -186,9 +186,10 @@ export const StylesSection1 = styled.div`
 
      .content-section .title {
       /* padding-right: 100px; */
-      margin-top: 90px;
+      margin-top: 70px;
       padding-left: 12px;
       width: 200px;
+      
     }
     .content-section .title h1 {
       font-size: 3.5rem;
