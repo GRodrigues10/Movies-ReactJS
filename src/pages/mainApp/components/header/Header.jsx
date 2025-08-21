@@ -12,15 +12,15 @@ function Header() {
       <div className="content-section">
         <div className="p1">
           <img src={netflixLogo} alt="Logo Netflix" />
-          <p>Home</p>
-          <p>TV Shows</p>
-          <p>Movies</p>
-          <p>New & Popular</p>
-          <p>My List</p>
+          <p>Início</p>
+          <p>Séries</p>
+          <p>Filmes</p>
+          <p>Novos & Populares</p>
+          <p>Minha Lista</p>
         </div>
 
         <div className="p2">
-          <button onClick={back}>Sign Out</button>
+          <button onClick={back}>Sair</button>
             <div className="btn-mobile">
                  <p>☰</p>
             </div>
