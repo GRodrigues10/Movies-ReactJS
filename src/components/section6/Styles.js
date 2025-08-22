@@ -13,22 +13,24 @@ export const StylesSection6 = styled.div`
   .content-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     height: 100%;
     text-align: center;
     width: 90%;
+    gap: 50px;
   }
   .content-section img {
     width: 250px;
     position: relative;
-    top: 50px;
+   
   }
 
   .content-section h2 {
     font-size: 1.8rem;
     position: relative;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+   
   }
 
   .content-section p {
@@ -91,7 +93,7 @@ export const StylesSection6 = styled.div`
     }
 
     .content-section img {
-      width: 500px;
+      width: 400px;
       position: relative;
       margin-bottom: 70px;
     }
@@ -110,7 +112,7 @@ export const StylesSection6 = styled.div`
     }
 
     .content-section img {
-      width: 500px;
+      width: 450px;
     }
   }
 `;
