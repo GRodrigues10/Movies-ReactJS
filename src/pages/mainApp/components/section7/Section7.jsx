@@ -38,7 +38,7 @@ function Section7() {
   };
 
   return (
-    <StylesSection7>
+    <StylesSection7 id="series">
       <div className="content-section">
         <p className="saga-title"><strong>Séries de TV</strong></p>
 

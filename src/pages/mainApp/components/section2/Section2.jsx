@@ -38,8 +38,8 @@ function Section2() {
   };
 
   return (
-    <StylesSection2>
-      <div className="content-section">
+    <StylesSection2 >
+      <div className="content-section" id='populares'>
         <p className="saga-title"><strong>Populares na Netflix</strong></p>
 
         <div className="carousel-container">

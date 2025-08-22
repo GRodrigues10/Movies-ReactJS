@@ -9,7 +9,12 @@ function Header() {
 
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => setMenuOpen(!menuOpen);
-
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <StylesHeader>
       <div className="content-section">
@@ -18,10 +23,10 @@ function Header() {
           {/* Menu desktop */}
           <div className="desktop-menu">
             <p>Início</p>
-            <p>Séries</p>
-            <p>Filmes</p>
-            <p>Novos & Populares</p>
-            <p>Minha Lista</p>
+            <p onClick={() => scrollToSection("series")}>Séries</p>
+            <p onClick={() => scrollToSection("filmes")}>Filmes</p>
+            <p onClick={() => scrollToSection("populares")}>Novos & Populares</p>
+            <p onClick={() => scrollToSection("sagas")}>Top Sagas</p>
           </div>
         </div>
 
@@ -37,10 +42,10 @@ function Header() {
       <div className={`side-menu ${menuOpen ? "open" : ""}`}>
         <div className="close-btn" onClick={toggleMenu}>×</div>
         <p>Início</p>
-        <p>Séries</p>
-        <p>Filmes</p>
-        <p>Novos & Populares</p>
-        <p>Minha Lista</p>
+        <p onClick={() => scrollToSection("series")}>Séries</p>
+        <p onClick={() => scrollToSection("filmes")}>Filmes</p>
+        <p onClick={() => scrollToSection("populares")}>Novos & Populares</p>
+        <p onClick={() => scrollToSection("sagas")}>Top Sagas</p>
       </div>
 
       {/* Overlay */}

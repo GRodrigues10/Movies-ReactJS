@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Loading = styled.div`
   display: flex;
   justify-content: center;
@@ -11,18 +10,31 @@ export const Loading = styled.div`
   font-size: 2rem;
   font-weight: bold;
   letter-spacing: 2px;
-  font-family: 'Netflix Sans', sans-serif;
+  font-family: "Netflix Sans", sans-serif;
 
   .dot {
     animation: blink 1s infinite;
   }
-  .dot:nth-child(1) { animation-delay: 0s; }
-  .dot:nth-child(2) { animation-delay: 0.2s; }
-  .dot:nth-child(3) { animation-delay: 0.4s; }
+  .dot:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .dot:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  .dot:nth-child(3) {
+    animation-delay: 0.4s;
+  }
 
   @keyframes blink {
-    0%, 50%, 100% { opacity: 0; }
-    25%, 75% { opacity: 1; }
+    0%,
+    50%,
+    100% {
+      opacity: 0;
+    }
+    25%,
+    75% {
+      opacity: 1;
+    }
   }
 `;
 
@@ -54,11 +66,10 @@ export const StylesDetails = styled.div`
     top: 10px;
   }
 
-  
-
   .img img {
     width: 50px;
-    cursor:pointer;
+    cursor: pointer;
+    margin-left: 10px;
   }
 
   .info {
@@ -138,6 +149,8 @@ export const StylesDetails = styled.div`
   @media screen and (min-width: 530px) {
     .img img {
       width: 70px;
+
+      margin-left: 0px;
     }
 
     .info h1 {
@@ -224,6 +237,10 @@ export const StylesDetails = styled.div`
       padding: 11px;
       height: auto;
       text-align: center;
+    }
+
+    .img img {
+      margin-left: 0px;
     }
 
     .play {
@@ -406,7 +423,6 @@ export const StylesDetails = styled.div`
     }
   }
 
-
   @media screen and (min-width: 1440px) {
     .img img {
       width: 100px;
@@ -473,7 +489,7 @@ export const StylesDetails = styled.div`
     }
   }
 
-   @media screen and (min-width: 1536px) {
+  @media screen and (min-width: 1536px) {
     .img img {
       width: 100px;
     }

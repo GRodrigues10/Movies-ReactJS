@@ -38,7 +38,7 @@ function Section4() {
   };
 
   return (
-    <StylesSection4>
+    <StylesSection4 id="filmes">
       <div className="content-section">
         <p className="saga-title"><strong>Em Alta</strong></p>
 

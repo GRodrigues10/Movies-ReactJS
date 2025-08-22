@@ -38,7 +38,7 @@ function Section8() {
   };
 
   return (
-    <StylesSection8>
+    <StylesSection8 id="sagas">
       <div className="content-section">
         <h2 className="main-title">Sagas Populares</h2>
           <p className="saga-title"><strong>Universo Star Wars</strong></p>

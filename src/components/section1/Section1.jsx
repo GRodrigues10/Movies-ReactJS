@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../header/Header";
 import { StylesSection1 } from "./Styles";
+import { useNavigate } from "react-router-dom";
 
 function Section1() {
+  const [email, setEmail] = useState("");
+  const navigate = useNavigate();
+const signIn = () => {
+  if(!email.trim()){
+    alert('Digite o seu email!');
+    return;
+  }
+  navigate("/sign-in", { state: { email } }); // envia o email
+};
   return (
     <>
       <StylesSection1>
@@ -15,8 +25,13 @@ function Section1() {
             assinatura.
           </p>
           <div className="controls">
-            <input type="text" placeholder="Email" />
-            <button>
+            <input
+              type="text"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <button onClick={signIn}>
               Vamos Lá <span>></span>
             </button>
           </div>

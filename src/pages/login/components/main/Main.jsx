@@ -2,9 +2,13 @@ import React, { useState } from "react";
 import { StylesLogin } from "./Styles";
 import Header from "../header/Header";
 import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 function Main() {
-  const [email, setEmail] = useState("");
+  const location = useLocation();
+  const initialEmail = location.state?.email || ""; // pega o email da rota
+
+  const [email, setEmail] = useState(initialEmail || '');
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
   const back = () => {
@@ -30,12 +34,16 @@ function Main() {
               placeholder="E-mail ou número de celular"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              name="new-email"
+              autoComplete="new-email"
             />
             <input
-              type="text"
+              type="password"
               placeholder="Senha"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
+              name="new-password"
+              autoComplete="new-password"
             />
             <button onClick={signIn}>Entrar</button>
             <p className="separate">OU</p>
