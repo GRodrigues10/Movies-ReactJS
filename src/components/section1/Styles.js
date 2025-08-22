@@ -176,7 +176,9 @@ export const StylesSection1 = styled.div`
 }
 
 @media screen and (min-width:1200px){
+   
     .content-section h1{
+        
         font-size: 4rem;
     }
 

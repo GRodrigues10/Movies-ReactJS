@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StylesSection4 = styled.div`
-   width: 100%;
+  width: 100%;
   height: 80vh;
   background-color: black;
   color: white;
@@ -11,7 +11,6 @@ export const StylesSection4 = styled.div`
   justify-content: center;
 
   .content-section {
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,14 +24,13 @@ export const StylesSection4 = styled.div`
     position: relative;
     bottom: 50px;
 
-   left: 15px;
+    left: 15px;
   }
 
   .content-section h2 {
     font-size: 1.8rem;
     position: relative;
     margin-bottom: 50px;
-   
   }
 
   .content-section p {
@@ -40,11 +38,7 @@ export const StylesSection4 = styled.div`
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
-    
   }
-
-
-  
 
   @media screen and (min-width: 530px) {
     .content-section h2 {
@@ -66,7 +60,6 @@ export const StylesSection4 = styled.div`
       text-align: start;
       justify-content: space-between;
       padding: 20px;
-      
     }
     .content-section h2 {
       font-size: 2.2rem;
@@ -83,11 +76,10 @@ export const StylesSection4 = styled.div`
     .content-section img {
       width: 240px;
       left: 0px;
-
     }
   }
   @media screen and (min-width: 992px) {
-     .content-section{
+    .content-section {
       width: 95%;
     }
     .content-section h2 {
@@ -104,6 +96,9 @@ export const StylesSection4 = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
+    .content-section {
+      align-items: center;
+    }
     .content-section h2 {
       font-size: 4rem;
     }
@@ -114,6 +109,11 @@ export const StylesSection4 = styled.div`
 
     .content-section img {
       width: 400px;
+
+      position: relative;
+      bottom: 0px;
+
+      left: 0px;
     }
   }
 `;

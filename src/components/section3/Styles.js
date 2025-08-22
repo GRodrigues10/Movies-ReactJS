@@ -9,6 +9,7 @@ export const StylesSection3 = styled.div`
   align-items: center;
   justify-content: center;
 
+
   .content-section {
     width: 90%;
     display: flex;
@@ -21,8 +22,9 @@ export const StylesSection3 = styled.div`
 
   .content-section h2 {
     font-size: 1.8rem;
-    position: relative;
-    bottom: 50px;
+    /* position: relative;
+    bottom: 50px; */
+    margin-bottom: 50px;
   }
 
   .content-section p {
@@ -58,6 +60,7 @@ export const StylesSection3 = styled.div`
       flex-direction: row;
       text-align: start;
       justify-content: space-between;
+      padding: 20px;
 
    
     

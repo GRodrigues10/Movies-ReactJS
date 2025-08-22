@@ -100,19 +100,32 @@ export const StylesSection6 = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
-    .content-section {
-      width: 95%;
-    }
-    .content-section h2 {
-      font-size: 4rem;
-    }
-    .content-section p {
-      font-size: 1.5rem;
-      width: 620px;
-    }
-
-    .content-section img {
-      width: 450px;
-    }
+  .content-section {
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* garante alinhamento vertical */
+    padding-right: 12px;
+   
   }
+
+  .content-section h2 {
+    font-size: 4rem;
+    margin-bottom: 10px; /* mantém espaçamento consistente */
+    width: 100%;
+  }
+
+  .content-section p {
+    font-size: 1.5rem;
+    width: 620px; /* igual Section4 */
+    text-align: start;
+  }
+
+  .content-section img {
+    width: 400px; /* igual Section4 */
+    margin-bottom: 0; /* remove desalinhamento vertical */
+    position: static; /* garante fluxo normal do flexbox */
+  }
+}
+
 `;

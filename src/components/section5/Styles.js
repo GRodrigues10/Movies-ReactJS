@@ -11,7 +11,7 @@ export const StylesSection5 = styled.div`
   justify-content: center;
 
   .content-section {
-    width: 100%;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,8 +24,7 @@ export const StylesSection5 = styled.div`
   
   .content-section h2 {
       font-size: 1.8rem;
-    position: relative;
-    bottom: 50px;
+    margin-bottom: 50px;
     
     
   }
@@ -78,7 +77,7 @@ export const StylesSection5 = styled.div`
     .content-section p {
       font-size: 1.1rem;
       text-align: start;
-      width: 450px;
+     width: 500px;
       
     }
 
@@ -115,7 +114,7 @@ export const StylesSection5 = styled.div`
     }
 
     .content-section img {
-      width: 500px;
+      width: 450px;
     }
   }
 `;
