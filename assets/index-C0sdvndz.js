@@ -494,7 +494,7 @@ background: linear-gradient(
   color: white;
   justify-content: center;
   align-items: center;
-  background-attachment: fixed;
+  
  
 
 
@@ -591,6 +591,7 @@ background: linear-gradient(
 
 
 @media screen and (min-width:768px){
+    background-attachment: fixed;
     .content-section h1{
         font-size: 2.8rem;
     }
