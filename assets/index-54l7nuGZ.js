@@ -659,7 +659,9 @@ background: linear-gradient(
 }
 
 @media screen and (min-width:1200px){
+   
     .content-section h1{
+        
         font-size: 4rem;
     }
 
@@ -815,6 +817,7 @@ background: linear-gradient(
   align-items: center;
   justify-content: center;
 
+
   .content-section {
     width: 90%;
     display: flex;
@@ -827,8 +830,9 @@ background: linear-gradient(
 
   .content-section h2 {
     font-size: 1.8rem;
-    position: relative;
-    bottom: 50px;
+    /* position: relative;
+    bottom: 50px; */
+    margin-bottom: 50px;
   }
 
   .content-section p {
@@ -864,6 +868,7 @@ background: linear-gradient(
       flex-direction: row;
       text-align: start;
       justify-content: space-between;
+      padding: 20px;
 
    
     
@@ -915,7 +920,7 @@ background: linear-gradient(
     }
   }
 `,Av="/Movies-ReactJS/assets/tv-netflix-BWLwypTF.png";function Ev(){return f.jsx(zv,{children:f.jsxs("div",{className:"content-section",children:[f.jsxs("div",{className:"text",children:[f.jsx("h2",{children:"Aproveite na tv"}),f.jsx("p",{children:"Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos."})]}),f.jsx("img",{src:Av,alt:"Versão TV"})]})})}const jv=pt.div`
-   width: 100%;
+  width: 100%;
   height: 80vh;
   background-color: black;
   color: white;
@@ -925,7 +930,6 @@ background: linear-gradient(
   justify-content: center;
 
   .content-section {
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -939,14 +943,13 @@ background: linear-gradient(
     position: relative;
     bottom: 50px;
 
-   left: 15px;
+    left: 15px;
   }
 
   .content-section h2 {
     font-size: 1.8rem;
     position: relative;
     margin-bottom: 50px;
-   
   }
 
   .content-section p {
@@ -954,11 +957,7 @@ background: linear-gradient(
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
-    
   }
-
-
-  
 
   @media screen and (min-width: 530px) {
     .content-section h2 {
@@ -980,7 +979,6 @@ background: linear-gradient(
       text-align: start;
       justify-content: space-between;
       padding: 20px;
-      
     }
     .content-section h2 {
       font-size: 2.2rem;
@@ -997,11 +995,10 @@ background: linear-gradient(
     .content-section img {
       width: 240px;
       left: 0px;
-
     }
   }
   @media screen and (min-width: 992px) {
-     .content-section{
+    .content-section {
       width: 95%;
     }
     .content-section h2 {
@@ -1018,6 +1015,9 @@ background: linear-gradient(
   }
 
   @media screen and (min-width: 1200px) {
+    .content-section {
+      align-items: center;
+    }
     .content-section h2 {
       font-size: 4rem;
     }
@@ -1028,6 +1028,11 @@ background: linear-gradient(
 
     .content-section img {
       width: 400px;
+
+      position: relative;
+      bottom: 0px;
+
+      left: 0px;
     }
   }
 `,Rv="/Movies-ReactJS/assets/dispositivos-Yv656wfi.png";function Nv(){return f.jsx(jv,{children:f.jsxs("div",{className:"content-section",children:[f.jsx("img",{src:Rv,alt:"Mobile"}),f.jsxs("div",{className:"text",children:[f.jsx("h2",{children:"Assista onde quiser"}),f.jsx("p",{children:"Assista a quantos filmes e séries quiser no celular, tablet, laptop e TV."})]})]})})}const Tv=pt.div`
@@ -1041,7 +1046,7 @@ background: linear-gradient(
   justify-content: center;
 
   .content-section {
-    width: 100%;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1054,8 +1059,7 @@ background: linear-gradient(
   
   .content-section h2 {
       font-size: 1.8rem;
-    position: relative;
-    bottom: 50px;
+    margin-bottom: 50px;
     
     
   }
@@ -1108,7 +1112,7 @@ background: linear-gradient(
     .content-section p {
       font-size: 1.1rem;
       text-align: start;
-      width: 450px;
+     width: 500px;
       
     }
 
@@ -1145,7 +1149,7 @@ background: linear-gradient(
     }
 
     .content-section img {
-      width: 500px;
+      width: 450px;
     }
   }
 `,Dv="/Movies-ReactJS/assets/kids-DbAjh5sn.png";function Ov(){return f.jsx(Tv,{children:f.jsxs("div",{className:"content-section",children:[f.jsxs("div",{className:"text",children:[f.jsx("h2",{children:"Crie perfis para crianças"}),f.jsx("p",{children:"Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso."})]}),f.jsx("img",{src:Dv,alt:"Mobile"})]})})}const Cv=pt.div`
@@ -1248,21 +1252,34 @@ background: linear-gradient(
   }
 
   @media screen and (min-width: 1200px) {
-    .content-section {
-      width: 95%;
-    }
-    .content-section h2 {
-      font-size: 4rem;
-    }
-    .content-section p {
-      font-size: 1.5rem;
-      width: 620px;
-    }
-
-    .content-section img {
-      width: 450px;
-    }
+  .content-section {
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* garante alinhamento vertical */
+    padding-right: 12px;
+   
   }
+
+  .content-section h2 {
+    font-size: 4rem;
+    margin-bottom: 10px; /* mantém espaçamento consistente */
+    width: 100%;
+  }
+
+  .content-section p {
+    font-size: 1.5rem;
+    width: 620px; /* igual Section4 */
+    text-align: start;
+  }
+
+  .content-section img {
+    width: 400px; /* igual Section4 */
+    margin-bottom: 0; /* remove desalinhamento vertical */
+    position: static; /* garante fluxo normal do flexbox */
+  }
+}
+
 `,Mv="/Movies-ReactJS/assets/movel-A3IsfRxB.png";function _v(){return f.jsx(Cv,{children:f.jsxs("div",{className:"content-section",children:[f.jsx("img",{src:Mv,alt:"Mobile"}),f.jsxs("div",{className:"text",children:[f.jsx("h2",{children:"Baixe séries para assistir offline"}),f.jsx("p",{children:"Assista em um avião, trem ou submarino..."})]})]})})}const Bv=pt.div`
   width: 100%;
   min-height: 100vh; 
