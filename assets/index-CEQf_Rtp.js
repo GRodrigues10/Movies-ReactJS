@@ -1161,22 +1161,24 @@ background: linear-gradient(
   .content-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     height: 100%;
     text-align: center;
     width: 90%;
+    gap: 50px;
   }
   .content-section img {
     width: 250px;
     position: relative;
-    top: 50px;
+   
   }
 
   .content-section h2 {
     font-size: 1.8rem;
     position: relative;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+   
   }
 
   .content-section p {
@@ -1239,7 +1241,7 @@ background: linear-gradient(
     }
 
     .content-section img {
-      width: 500px;
+      width: 400px;
       position: relative;
       margin-bottom: 70px;
     }
@@ -1258,7 +1260,7 @@ background: linear-gradient(
     }
 
     .content-section img {
-      width: 500px;
+      width: 450px;
     }
   }
 `,Mv="/Movies-ReactJS/assets/movel-A3IsfRxB.png";function _v(){return f.jsx(Cv,{children:f.jsxs("div",{className:"content-section",children:[f.jsx("img",{src:Mv,alt:"Mobile"}),f.jsxs("div",{className:"text",children:[f.jsx("h2",{children:"Baixe séries para assistir offline"}),f.jsx("p",{children:"Assista em um avião, trem ou submarino..."})]})]})})}const Bv=pt.div`
