@@ -11,7 +11,7 @@ export const StylesSection1 = styled.div`
   color: white;
   justify-content: center;
   align-items: center;
-  background-attachment: fixed;
+  
  
 
 
@@ -108,6 +108,7 @@ export const StylesSection1 = styled.div`
 
 
 @media screen and (min-width:768px){
+    background-attachment: fixed;
     .content-section h1{
         font-size: 2.8rem;
     }
