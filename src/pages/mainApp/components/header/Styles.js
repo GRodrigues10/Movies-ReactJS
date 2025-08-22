@@ -100,6 +100,25 @@ export const StylesHeader = styled.div`
     cursor: pointer;
   }
 
+  .exit {
+  margin-top: auto; /* Adicione esta linha */
+  padding: 10px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #E50914;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #0000007a;
+  cursor: pointer;
+  transition: 0.4s ease;
+  margin-bottom: 10px;
+}
+
+.exit:hover {
+  background-color: #c9141dff;
+}
+
   .overlay {
     position: fixed;
     top: 0;

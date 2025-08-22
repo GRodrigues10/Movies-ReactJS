@@ -15,14 +15,18 @@ function Header() {
       section.scrollIntoView({ behavior: 'smooth' });
     }
   };
+
+  const signOut = () => {
+    navigate('/')
+  }
   return (
-    <StylesHeader>
+    <StylesHeader id="inicio">
       <div className="content-section">
         <div className="p1">
           <img src={netflixLogo} alt="Logo Netflix" />
           {/* Menu desktop */}
           <div className="desktop-menu">
-            <p>Início</p>
+            <p onClick={() => scrollToSection("inicio")}>Início</p>
             <p onClick={() => scrollToSection("series")}>Séries</p>
             <p onClick={() => scrollToSection("filmes")}>Filmes</p>
             <p onClick={() => scrollToSection("populares")}>Novos & Populares</p>
@@ -41,11 +45,12 @@ function Header() {
       {/* Menu lateral direito mobile */}
       <div className={`side-menu ${menuOpen ? "open" : ""}`}>
         <div className="close-btn" onClick={toggleMenu}>×</div>
-        <p>Início</p>
+        <p onClick={() => scrollToSection("inicio")}>Início</p>
         <p onClick={() => scrollToSection("series")}>Séries</p>
         <p onClick={() => scrollToSection("filmes")}>Filmes</p>
         <p onClick={() => scrollToSection("populares")}>Novos & Populares</p>
         <p onClick={() => scrollToSection("sagas")}>Top Sagas</p>
+        <button className="exit" onClick={signOut}>Sair</button>
       </div>
 
       {/* Overlay */}
