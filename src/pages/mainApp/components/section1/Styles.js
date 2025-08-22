@@ -100,6 +100,10 @@ export const StylesSection1 = styled.div`
     }
   }
 
+  .desc .btn .more{
+    width: 165px;
+  }
+
   .btn {
     display: flex;
     gap: 5px;
@@ -132,6 +136,14 @@ export const StylesSection1 = styled.div`
       background-color: white;
       color: black;
     }
+
+    .desc .btn .play {
+      width: 115px;
+  }
+
+  .desc .btn .more{
+    width: 175px;
+  }
 
     .btn {
       display: flex;
@@ -168,6 +180,18 @@ export const StylesSection1 = styled.div`
       margin: 10px;
     }
 
+    .desc .btn button {
+      padding: 12px;
+    }
+
+        .desc .btn .play {
+      width: 115px;
+  }
+
+  .desc .btn .more{
+    width: 195px;
+  }
+
     .content-section .title h1 {
       font-size: 3.2rem;
     }
@@ -194,6 +218,8 @@ export const StylesSection1 = styled.div`
     .content-section .title h1 {
       font-size: 3.5rem;
     }
+
+  
   }
 
     @media screen and (min-width: 1200px) {
@@ -219,7 +245,7 @@ export const StylesSection1 = styled.div`
     }
 
     .content-section .desc p {
-      font-size: 1.3rem;
+      font-size: 1.4rem;
       width: 45%;
     }
 
@@ -227,5 +253,13 @@ export const StylesSection1 = styled.div`
       font-size: 1.3rem;
       width: 115px;
     }
+
+         .desc .btn .play {
+      width: 125px;
+  }
+
+  .desc .btn .more{
+    width: 222px;
+  }
   }
 `;

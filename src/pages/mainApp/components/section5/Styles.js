@@ -68,6 +68,44 @@ export const StylesSection5 = styled.div`
     filter: brightness(1.2) contrast(1.1);
   }
 
+  .carousel-container {
+    position: relative; /* Essencial para as setas ficarem dentro da div */
+    display: flex;
+    align-items: center;
+  }
+
+  /* setas */
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: white;
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding: 12px;
+    z-index: 10;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centraliza o ícone dentro do botão */
+    opacity: 0;
+    transition: opacity 0.3s ease, background 0.3s ease;
+  }
+
+  .arrow:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .arrow.left {
+    left: 5px;
+  }
+
+  .arrow.right {
+    right: 5px;
+  }
+
   /* ================= MEDIA QUERIES ================= */
   @media screen and (min-width:530px) {
     .content-section p {
@@ -84,6 +122,9 @@ export const StylesSection5 = styled.div`
     }
     .content-section .cards .card img {
       max-height: 240px;
+    }
+     .carousel-container:hover .arrow {
+      opacity: 1;
     }
   }
 

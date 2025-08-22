@@ -1,5 +1,31 @@
 import styled from "styled-components";
 
+
+export const Loading = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Netflix Sans', sans-serif;
+
+  .dot {
+    animation: blink 1s infinite;
+  }
+  .dot:nth-child(1) { animation-delay: 0s; }
+  .dot:nth-child(2) { animation-delay: 0.2s; }
+  .dot:nth-child(3) { animation-delay: 0.4s; }
+
+  @keyframes blink {
+    0%, 50%, 100% { opacity: 0; }
+    25%, 75% { opacity: 1; }
+  }
+`;
+
 export const StylesDetails = styled.div`
   width: 100%;
   height: 100vh;
@@ -24,11 +50,15 @@ export const StylesDetails = styled.div`
     width: 100%;
     height: 100%;
     position: relative;
-    right: 20px;
+    right: 25px;
     top: 10px;
   }
+
+  
+
   .img img {
     width: 50px;
+    cursor:pointer;
   }
 
   .info {
@@ -42,6 +72,8 @@ export const StylesDetails = styled.div`
     width: 100%;
     text-shadow: 2px 4px 2px #00000085;
     margin-top: 40px;
+    position: relative;
+    right: 5px;
   }
 
   .info-extras {
@@ -174,7 +206,7 @@ export const StylesDetails = styled.div`
         rgba(0, 0, 0, 0.45),
         rgba(0, 0, 0, 0)
       ),
-      url(${(props) => props.bg});
+      url(${(props) => props.bg || props.bg2});
 
     .img img {
       width: 80px;

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { StylesSection1 } from "./Styles";
+import { useNavigate } from "react-router-dom";
 
 function Section1() {
   const [title, setTitle] = useState("");
@@ -8,7 +9,10 @@ function Section1() {
   const [posterMobile, setPosterMobile] = useState("");
   const [posterMedium, setPosterMedium] = useState("");
   const [posterDesktop, setPosterDesktop] = useState("");
-
+ const navigate = useNavigate();
+const more = (id, type) => {
+  navigate(`/details/${id}`, { state: { type } });
+};
   useEffect(() => {
     const fetchBanner = async () => {
       const apiKey = "ee96350ded551df8af41839e03615c58";
@@ -61,8 +65,8 @@ function Section1() {
          <p className="season">Assista a temporada {season}</p>
           <p>{description.slice(0, 85)}...</p>
           <div className="btn">
-            <button className="play"> ▶ Play</button>
-            <button>More info</button>
+            <a href="https://youtu.be/iKZyYdwS3Wg?si=_PmLTcQVMn-G5chD" target="_blank"><button className="play"> ▶ Assistir</button></a>
+            <button onClick={()=>more(66732,'tv')} className="more">Mais Informações</button>
           </div>
         </div>
       </div>

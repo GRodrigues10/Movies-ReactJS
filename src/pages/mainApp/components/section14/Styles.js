@@ -1,4 +1,3 @@
-
 import styled from "styled-components";
 
 export const StylesSection14 = styled.div`
@@ -11,10 +10,15 @@ export const StylesSection14 = styled.div`
     font-size: 1.1rem;
     padding-left: 20px;
     margin-left: 15px;
-    padding-bottom: 10px;
-    color: #ccc;
     padding-top: 15px;
     padding-bottom: 15px;
+    color: #ccc;
+  }
+
+  .carousel-container {
+    position: relative; /* Essencial para posicionar setas */
+    display: flex;
+    align-items: center;
   }
 
   .content-section .cards {
@@ -26,7 +30,7 @@ export const StylesSection14 = styled.div`
     overflow-x: auto;
     scroll-behavior: smooth;
     padding: 10px;
-    padding-bottom: 20px; /* igual a Section8 */
+    padding-bottom: 20px;
   }
 
   /* Esconde barra de rolagem */
@@ -38,7 +42,7 @@ export const StylesSection14 = styled.div`
     scrollbar-width: none;
   }
 
-  /* Cards iguais */
+  /* Cards */
   .content-section .cards .card {
     flex: 0 0 auto;
     display: flex;
@@ -74,6 +78,44 @@ export const StylesSection14 = styled.div`
     filter: brightness(1.2) contrast(1.1);
   }
 
+    .carousel-container {
+  position: relative; /* Essencial para as setas ficarem dentro da div */
+  display: flex;
+  align-items: center;
+}
+
+/* setas */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  color: white;
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding: 12px;
+  z-index: 10;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centraliza o ícone dentro do botão */
+  opacity: 0;
+  transition: opacity 0.3s ease, background 0.3s ease;
+}
+
+.arrow:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.arrow.left {
+  left: 5px;
+}
+
+.arrow.right {
+  right: 5px;
+}
+
   /* ================= MEDIA QUERIES ================= */
   @media screen and (min-width: 530px) {
     .content-section p {
@@ -85,11 +127,41 @@ export const StylesSection14 = styled.div`
   }
 
   @media screen and (min-width: 768px) {
-    .content-section p {
-      font-size: 1.2rem;
+    /* setas */
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); /* centraliza vertical */
+      background: rgba(0, 0, 0, 0.4);
+      border: none;
+      color: white;
+      font-size: 2.5rem;
+      cursor: pointer;
+      padding: 12px;
+      z-index: 10;
+      border-radius: 50%;
+      opacity: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center; /* centraliza o ícone dentro do círculo */
+      transition: opacity 0.3s ease, background 0.3s ease;
     }
-    .content-section .cards .card img {
-      max-height: 240px;
+
+    .arrow:hover {
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    .arrow.left {
+      left: 5px;
+    }
+
+    .arrow.right {
+      right: 5px;
+    }
+
+    /* só mostra as setas quando o mouse passa por cima */
+    .carousel-container:hover .arrow {
+      opacity: 1;
     }
   }
 

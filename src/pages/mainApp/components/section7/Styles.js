@@ -35,16 +35,16 @@ export const StylesSection7 = styled.div`
   }
 
   .content-section .cards .card {
-    flex: 0 0 auto; 
+    flex: 0 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    overflow: visible; 
+    overflow: visible;
     border: 2px solid rgba(255, 255, 255, 0.1); /* borda sutil */
-    border-radius: 10px; 
-    padding: 2px; 
-    background-color: rgba(0, 0, 0, 0.3); 
+    border-radius: 10px;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     transform-origin: center;
     will-change: transform, box-shadow;
@@ -61,7 +61,7 @@ export const StylesSection7 = styled.div`
 
   .content-section .cards .card:hover {
     transform: scale(1.01); /* aumenta levemente */
-    z-index: 2; 
+    z-index: 2;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); /* glow leve */
   }
 
@@ -69,8 +69,46 @@ export const StylesSection7 = styled.div`
     filter: brightness(1.2) contrast(1.1);
   }
 
+  .carousel-container {
+    position: relative; /* Essencial para as setas ficarem dentro da div */
+    display: flex;
+    align-items: center;
+  }
+
+  /* setas */
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: white;
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding: 12px;
+    z-index: 10;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centraliza o ícone dentro do botão */
+    opacity: 0;
+    transition: opacity 0.3s ease, background 0.3s ease;
+  }
+
+  .arrow:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .arrow.left {
+    left: 5px;
+  }
+
+  .arrow.right {
+    right: 5px;
+  }
+
   /* ================= MEDIA QUERIES ================= */
-  @media screen and (min-width:530px) {
+  @media screen and (min-width: 530px) {
     .content-section p {
       font-size: 1.2rem;
     }
@@ -79,16 +117,19 @@ export const StylesSection7 = styled.div`
     }
   }
 
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
     .content-section p {
       font-size: 1.2rem;
     }
     .content-section .cards .card img {
       max-height: 240px;
     }
+    .carousel-container:hover .arrow {
+      opacity: 1;
+    }
   }
 
-  @media screen and (min-width:992px) {
+  @media screen and (min-width: 992px) {
     .content-section p {
       font-size: 1.3rem;
     }
