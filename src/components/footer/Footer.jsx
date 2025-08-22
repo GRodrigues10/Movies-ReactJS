@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { StylesFooter } from "./Styles";
+import { useNavigate } from "react-router-dom";
 
 function Footer() {
+  const [email, setEmail] = useState('');
+  const navigate = useNavigate();
+  const signIn = () => {
+  if(!email.trim()){
+    alert('Digite o seu email!');
+    return;
+  }
+  navigate("/sign-in", { state: { email } }); // envia o email
+};
   return (
     <StylesFooter>
       <section className="content-section">
@@ -10,8 +20,8 @@ function Footer() {
           assinatura.
         </p>
         <div className="content-controls">
-          <input type="text" placeholder="Email" />
-          <button>
+          <input type="text" placeholder="Email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
+          <button onClick={signIn}>
             Vamos Lá <span>></span>{" "}
           </button>
         </div>
