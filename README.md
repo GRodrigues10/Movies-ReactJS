@@ -16,30 +16,9 @@ O projeto conta com:
 
 - ⚡ Implementação de boas práticas de HTML, CSS e JavaScript (ou React, se aplicável), demonstrando domínio em front-end moderno
 
-## Tela Inicial
-
-<img width="100%" alt="image" src="https://github.com/user-attachments/assets/d3a770e5-5c66-4022-b7ed-a60dff2a3c44" />
 
 
----
-
-## Tela de Login
-
-<img src="https://github.com/user-attachments/assets/4046cff6-635d-468e-8845-657910f94be4" width="100%" alt="Tela de Login do Netflix Clone" />
-
----
-
-## Tela de Filmes
-
-<img src="https://github.com/user-attachments/assets/053be6b2-74fa-4c27-adf6-4df77b799cd6" width="100%" alt="Tela de Filmes do Netflix Clone" />
-
----
-
-## Tela de Detalhes
-
-<img src="https://github.com/user-attachments/assets/e328957a-b855-4881-8f4a-9347437c9614" width="100%" alt="Tela de Detalhes do Netflix Clone" />
-
-Link do Projeto:https://grodrigues10.github.io/Movies-ReactJS/
+## Link do Projeto:https://grodrigues10.github.io/Movies-ReactJS/
 
 
 
