@@ -35,7 +35,7 @@ const more = (id, type) => {
 
         // pega um pôster diferente (ex: o segundo da lista)
         const anotherPoster = imgData.posters[30];
-        const anotherBackdrop = imgData.backdrops[2];
+        const anotherBackdrop = imgData.backdrops[4];
         const anotherBackdrop2 = imgData.backdrops[30];
 
 

@@ -55,6 +55,7 @@ export const StylesSection1 = styled.div`
     gap: 20px;
     flex-direction: column;
     width: 100%;
+    
   }
 
   .desc .season{
@@ -72,6 +73,7 @@ export const StylesSection1 = styled.div`
     width: 100%;
     text-align: start;
     color: #cab7b7ff;
+    text-shadow: 1px 1px 1px #00000079;
   }
 
   .desc .btn button {
