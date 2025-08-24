@@ -16,21 +16,27 @@ O projeto conta com:
 
 - ⚡ Implementação de boas práticas de HTML, CSS e JavaScript (ou React, se aplicável), demonstrando domínio em front-end moderno
 
-<h2>Tela Incial</h2>
+## Tela Inicial
 
-<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/c78fb7c6-0707-40b8-90d8-3aa8c2dfd15d" />
+<img src="https://github.com/user-attachments/assets/c78fb7c6-0707-40b8-90d8-3aa8c2dfd15d" width="100%" alt="Tela Inicial do Netflix Clone" />
 
-<h2>Tela de Login</h2>
+---
 
-<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/4046cff6-635d-468e-8845-657910f94be4" />
+## Tela de Login
 
-<h2>Tela de Filmes</h2>
+<img src="https://github.com/user-attachments/assets/4046cff6-635d-468e-8845-657910f94be4" width="100%" alt="Tela de Login do Netflix Clone" />
 
-<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/053be6b2-74fa-4c27-adf6-4df77b799cd6" />
+---
 
-<h2>Tela de Detalhes</h2>
+## Tela de Filmes
 
-<img width="100%" height="100%" alt="image" src="https://github.com/user-attachments/assets/e328957a-b855-4881-8f4a-9347437c9614" />
+<img src="https://github.com/user-attachments/assets/053be6b2-74fa-4c27-adf6-4df77b799cd6" width="100%" alt="Tela de Filmes do Netflix Clone" />
+
+---
+
+## Tela de Detalhes
+
+<img src="https://github.com/user-attachments/assets/e328957a-b855-4881-8f4a-9347437c9614" width="100%" alt="Tela de Detalhes do Netflix Clone" />
 
 
 
