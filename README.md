@@ -30,7 +30,8 @@ O projeto conta com:
 
 <h2>Tela de Detalhes</h2>
 
-<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/35572f07-55d3-414c-98d8-fd96c9b2537f" />
+<img width="100%" height="100%" alt="image" src="https://github.com/user-attachments/assets/e328957a-b855-4881-8f4a-9347437c9614" />
+
 
 
 
