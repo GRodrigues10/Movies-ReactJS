@@ -38,6 +38,8 @@ O projeto conta com:
 
 <img src="https://github.com/user-attachments/assets/e328957a-b855-4881-8f4a-9347437c9614" width="100%" alt="Tela de Detalhes do Netflix Clone" />
 
+Link do Projeto:https://grodrigues10.github.io/Movies-ReactJS/
+
 
 
 
