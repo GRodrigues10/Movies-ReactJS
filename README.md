@@ -24,7 +24,7 @@ O projeto conta com:
 
 ## Tela de Login
 
-<img src="https://github.com/user-attachments/assets/4046cff6-635d-468e-8845-657910f94be4" width="1200px" alt="Tela de Login do Netflix Clone" />
+<img src="https://github.com/user-attachments/assets/4046cff6-635d-468e-8845-657910f94be4" width="100%" alt="Tela de Login do Netflix Clone" />
 
 ---
 
