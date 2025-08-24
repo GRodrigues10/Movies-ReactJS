@@ -42,9 +42,12 @@ const more = (id, type) => {
         setPosterMobile(
           `https://image.tmdb.org/t/p/w500${anotherPoster.file_path}`
         );
-        setPosterDesktop(
-          `https://image.tmdb.org/t/p/original${anotherBackdrop.file_path}`
-        );
+        // setPosterDesktop(
+        //   `https://image.tmdb.org/t/p/original${anotherBackdrop.file_path}`
+        // );
+
+   setPosterDesktop("https://image.tmdb.org/t/p/original/hTWtybOC91veCgHAVt3ULZnj4up.jpg");
+
 
         setPosterMedium(`https://image.tmdb.org/t/p/original${anotherBackdrop2.file_path}`)
       } catch (error) {
