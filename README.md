@@ -1,6 +1,6 @@
 # Netflix Clone
 
-Aplicação web inspirada na interface da Netflix, desenvolvida com foco em design responsivo e experiência do usuário.
+Aplicação web inspirada na Netflix, desenvolvida com React, focada em design responsivo, modularidade e experiência do usuário.
 
 O projeto conta com:
 
