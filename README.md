@@ -18,7 +18,8 @@ O projeto conta com:
 
 ## Tela Inicial
 
-<img src="https://github.com/user-attachments/assets/c78fb7c6-0707-40b8-90d8-3aa8c2dfd15d" width="100%" alt="Tela Inicial do Netflix Clone" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/d3a770e5-5c66-4022-b7ed-a60dff2a3c44" />
+
 
 ---
 
