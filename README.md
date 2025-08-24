@@ -4,18 +4,15 @@ Aplicação web inspirada na interface da Netflix, desenvolvida com foco em desi
 
 O projeto conta com:
 
-- 🎨 Layout moderno e responsivo, adaptado para diferentes dispositivos (mobile, tablet e desktop);
+- 🧩 Modular e responsiva: cada seção construída como componente reutilizável.
 
-- 📂 Sistema de login e cadastro utilizando Local Storage, permitindo autenticação simples e persistência de dados no navegador;
+- 🎬 Integração com API TMDB: exibe filmes, séries, documentários e desenhos em tempo real.
 
-- 🎬 Integração com a API TMDB (The Movie Database) para exibir catálogos dinâmicos de filmes e séries em tempo real;
+- 🔍 Seção de detalhes interativa: clique no título para ver mais informações e assistir ao trailer.
 
-- 🧩 Estrutura modular, organizada em sections que destacam diferentes recursos da plataforma;
+- 🔐 Tela de login funcional: com verificação básica de campos.
 
-- 📱 Desenvolvimento baseado em mobile first, com media queries personalizadas para todos os tamanhos de tela;
-
-- ⚡ Implementação de boas práticas de HTML, CSS e JavaScript (ou React, se aplicável), demonstrando domínio em front-end moderno
-
+- 🎨 Design moderno e adaptável: otimizado para mobile, tablet e desktop, focado na experiência do usuário.
 
 
 ### Link do Projeto: https://grodrigues10.github.io/Movies-ReactJS/
