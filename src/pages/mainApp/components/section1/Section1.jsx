@@ -39,9 +39,10 @@ const more = (id, type) => {
         const anotherBackdrop2 = imgData.backdrops[30];
 
 
-        setPosterMobile(
-          `https://image.tmdb.org/t/p/w500${anotherPoster.file_path}`
-        );
+        // setPosterMobile(
+        //   `https://image.tmdb.org/t/p/w500${anotherPoster.file_path}`
+        // );
+        setPosterMobile('https://image.tmdb.org/t/p/original/olAK0DWZmTpqRTRyNpqFUxKGbw6.jpg')
         // setPosterDesktop(
         //   `https://image.tmdb.org/t/p/original${anotherBackdrop.file_path}`
         // );
