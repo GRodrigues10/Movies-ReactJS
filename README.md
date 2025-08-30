@@ -4,7 +4,7 @@ Aplicação web baseada na Netflix, desenvolvida com React, focada em design res
 
 O projeto conta com:
 
-- 🧩 Modular e responsiva: cada seção construída como componente reutilizável.
+- 🧩 Estrutura modular e responsiva: cada seção construída como componente reutilizável.
 
 - 🎬 Integração com API TMDB: exibe filmes, séries, documentários e desenhos em tempo real.
 
