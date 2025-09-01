@@ -17,6 +17,20 @@ O projeto conta com:
 
 ### Link do Projeto: https://grodrigues10.github.io/Movies-ReactJS/
 
+<h3>Tela inicial</h3>
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/113b92e8-7892-47a7-a250-cdcb0be0a36d" />
+
+<h3>Tela de Login</h3>
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/7cce87ca-4bdf-4d2f-8d5a-c6d397979d88" />
+
+<h3>Tela Principal do App</h3>
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/823d43c5-6874-4bc2-b831-c17ef92de686" />
+
+<h3>Tela de Detalhes</h3>
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/279db336-e61f-4edd-9414-0595a4dfa110" />
+
+
+
 
 
 
