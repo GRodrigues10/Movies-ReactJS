@@ -30,8 +30,4 @@ O projeto conta com:
 <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/279db336-e61f-4edd-9414-0595a4dfa110" />
 
 
-
-
-
-
-
+### 📌 Este projeto é educativo. Todo o material utilizado pertence aos seus respectivos donos e não é redistribuído com fins comerciais.
