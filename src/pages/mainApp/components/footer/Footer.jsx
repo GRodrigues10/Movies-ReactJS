@@ -49,7 +49,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="foot-container">
-            <p className="foot">&copy; 2025 - Todos os Direitos Reservados</p>
+            <p className="foot">&copy; 2025 - Projeto criado apenas para fins educacionais.</p>
         </div>
       </div>
     </StylesFooter>
